@@ -1,7 +1,7 @@
 package model;
 
 public class Jogador {
-    private String nome;
+    private final String nome;
 
     // Construtor com validação recomendada
     public Jogador(String nome) {
